@@ -1,0 +1,33 @@
+void nodo(int id, nodo next){
+    int contS = 0
+    int contH = 2
+
+    t1 = p + contS
+    stack[t1] = H
+    H = H + contH
+
+    t2 = p + contS
+    t3 = stack[t2]
+    t4 = t3 + 0
+    heap[t4] = id
+
+    if nodo == null goto L2:
+    L1:
+        t7 = p + contS
+        t8 = stack[t7]
+        t9 = t8 + 1
+        heap[t9] = next
+    L2:
+        t7 = p + contS
+        t8 = stack[t7]
+        t9 = t8 + 1
+        heap[t9] = -1
+
+    contS = t5
+    contH = t6
+}
+
+void main(){
+    n1 = nodo(1, null)
+    n2 = nodo(2, n1)
+}
